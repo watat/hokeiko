@@ -1,0 +1,137 @@
+
+
+
+/*--- <header> ---*/
+
+header {
+  width: 980px;
+  margin: 0 auto;
+}
+
+#global_navi {
+  width: 980px;
+  overflow: hidden;
+  margin: 16px auto;
+}
+
+#global_navi ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#global_navi ul li {
+  width: 195px;
+  float: left;
+  text-align: center;
+  margin-right: 1px;
+}
+
+#global_navi ul li a {
+  display: block;
+  padding: 16px;
+  background-color: #115994;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.2s linear;
+}
+
+#global_navi ul li.current a{
+  background-color: #0b3e67
+}
+
+#global_navi ul li a:hover {
+  background-color: #0b3e67
+}
+
+/*--- </header> ---*/
+
+/*--- <main> ---*/
+
+#wrapper {
+  width: 980px;
+  margin: 0 auto 48px;
+  overflow: hidden;
+
+}
+
+#main {
+  width: 730px;
+  float: right;
+}
+
+#sidebar {
+  width: 220px;
+  float: left;
+}
+
+#side_banner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#side_banner ul li {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+/*--- </main> ---*/
+
+/*--- </footer> ---*/
+
+footer {
+  background-color: #041a2d;
+  text-align: center;
+  width: 100%;
+  margin: 16px auto 0;
+  padding: 0;
+}
+
+#footer_nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer_nav li {
+  display: inline;
+  border-left: solid 1px #fff;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+#footer_nav li:last-child {
+  border-right: solid 1px #fff;
+  padding-right: 10px;
+}
+
+#footer_nav ul li a{
+  font-size: smaller;
+  color: #fff;
+}
+
+small {
+  color: #fff;
+}
+/*--- </footer> ---*/
+
+
+/*--- <index.html>---*/
+
+#main_visual {
+  width : 980px;
+  height: 550px;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto 28px;
+}
+
+#main_visual img {
+  width: 100%;
+  height: auto;
+
+}
+
+
+/*--- </index.html>---*/
